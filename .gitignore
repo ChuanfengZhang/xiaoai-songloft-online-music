@@ -1,0 +1,14 @@
+# Local configuration, credentials and runtime data
+config.json
+.runtime/
+data/
+*.env
+*.private
+# Private UZZ distribution artifacts (all versions)
+/plugins/uzz-source*.jsplugin.zip
+/packages/uzz-source*.tar.gz
+# Editor and development state
+.DS_Store
+.workbuddy/
+__pycache__/
+*.pyc

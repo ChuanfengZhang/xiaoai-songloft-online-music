@@ -1,0 +1,10 @@
+{
+  "host_ip": "CHANGE_ME",
+  "music_dir": "/srv/music",
+  "data_dir": "/srv/xiaoai-songloft-online-music/data",
+  "songloft_port": 58091,
+  "admin_username": "admin",
+  "admin_password": "GENERATED_BY_INIT",
+  "uzz_token": "GENERATED_BY_INIT",
+  "deployment_id": "GENERATED_BY_INIT"
+}

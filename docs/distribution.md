@@ -26,10 +26,10 @@ python3 scripts/deploy.py check
 ├── scripts/
 ├── plugins/
 │   ├── miot-2026.10.20.2.jsplugin.zip
-│   ├── uzz-source-0.1.4.jsplugin.zip
+│   ├── uzz-source-0.1.5.jsplugin.zip
 │   └── downloader-2026.10.8.jsplugin.zip
 └── packages/
-    └── uzz-source-0.1.4.tar.gz
+    └── uzz-source-0.1.5.tar.gz
 ```
 
 | 文件 | 获取及放置方式 |

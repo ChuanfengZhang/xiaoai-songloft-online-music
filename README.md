@@ -63,7 +63,7 @@
 | Songloft Full | **v2.13.5**，使用 [Docker Hub 官方镜像](https://hub.docker.com/r/songloft/songloft) `songloft/songloft:2.13.5` |
 | Browserless Chromium | 固定 linux/amd64 镜像摘要，见 [versions.json](versions.json) |
 | MIoT 插件 | 2026.10.20.2，配套文件位置见下文 |
-| UZZ 插件 | 0.1.4，配套文件位置见下文 |
+| UZZ 插件 | 0.1.5，配套文件位置见下文 |
 | 歌曲下载插件 | 2026.10.8，配套文件位置见下文 |
 
 本项目使用 Songloft 包含 Web 界面的 Full 镜像，不使用 Lite 或 latest。启动时会检查程序自报版本，并按取得的镜像 ID 创建容器。
@@ -80,10 +80,10 @@
 项目根目录/
 ├── plugins/
 │   ├── miot-2026.10.20.2.jsplugin.zip
-│   ├── uzz-source-0.1.4.jsplugin.zip
+│   ├── uzz-source-0.1.5.jsplugin.zip
 │   └── downloader-2026.10.8.jsplugin.zip
 └── packages/
-    └── uzz-source-0.1.4.tar.gz
+    └── uzz-source-0.1.5.tar.gz
 ```
 
 保持上述 ZIP 和 tar.gz 原文件，不要手工解包或只修改文件名来匹配版本。开始安装前执行：
@@ -158,7 +158,7 @@ python3 scripts/deploy.py status
 在 Songloft 的 JS 插件管理页，依次上传：
 
 - `plugins/miot-2026.10.20.2.jsplugin.zip`
-- `plugins/uzz-source-0.1.4.jsplugin.zip`
+- `plugins/uzz-source-0.1.5.jsplugin.zip`
 - `plugins/downloader-2026.10.8.jsplugin.zip`
 
 页面不易找到时，可直接访问以下路径（接在 Songloft 地址后）：

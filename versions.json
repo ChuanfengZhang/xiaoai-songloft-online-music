@@ -29,8 +29,8 @@
       "source": "https://github.com/songloft-org/songloft-plugin-miot/releases/tag/v2026.10.20.2"
     },
     {
-      "file": "uzz-source-0.1.4.jsplugin.zip",
-      "version": "0.1.4",
+      "file": "uzz-source-0.1.5.jsplugin.zip",
+      "version": "0.1.5",
       "entryPath": "uzz-source",
       "permissions": [
         "storage",
@@ -38,7 +38,7 @@
       ],
       "author": "Chuanfeng Zhang",
       "license": "LicenseRef-UZZ-Personal-Use",
-      "sha256": "af6ebd4afbffc9d07fde8ce034637d6918eadb8ea284b0478697efab1858f31d",
+      "sha256": "896da51d15b25168a42c5c23248c0ba3ce0e6a0e8ed383ad47d89633dc182b50",
       "repository": "songloft-plugin-uzz"
     },
     {
@@ -57,18 +57,18 @@
   ],
   "uzz_source": {
     "repository": "songloft-plugin-uzz",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "license": "LicenseRef-UZZ-Personal-Use",
     "bundle": {
-      "file": "uzz-source-0.1.4.tar.gz",
-      "sha256": "9a14657eb87c487d69b2c61e86ffb63b1de9b9bd069ee33ce5890d25177ee630",
+      "file": "uzz-source-0.1.5.tar.gz",
+      "sha256": "b23f5f4ef9b6efe408230d0b78f8480f61bb7a46a99dceddd1bebe269712207b",
       "files": {
         "APACHE-2.0.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
         "LICENSE.txt": "59f0ee07c64d1982ef3a7a32c82551e29dee99fe5321f0350008b02ca913172f",
         "THIRD_PARTY.md": "7d3102a5fd07cdfce17ee8bb1344407c11dd8347c79c6f87e48cdc578128c9ac",
         "health.mjs": "b55061148ff5d4800b32e584776d6e3b81d8372b550826a15d1d663273134852",
-        "page-api.mjs": "b9e050622ee33fb264ef4bfb26ae5d2309d62ef42b8af7bcb3c36f86c85af3ac",
-        "source-service.mjs": "9eada94af9eaa60750e56d7fe244a331aeb54b6d6233bf194a1ded7b9373223a",
+        "page-api.mjs": "eb7e782a19e04fa1fe16acc09cd1476386d6eeab56b40bb7a6761684a0dc6c98",
+        "source-service.mjs": "c44bd199ee5c5a692033f5e58f54dce25ce36dfee022813eed04f96f1849d09e",
         "start.sh": "f56c83e7e38e1667abbe6cbe07396f6504486aea657b36158fbaab3777f6e9aa"
       }
     }
